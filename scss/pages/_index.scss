@@ -12,7 +12,7 @@ p {
   color: $blanco;
 }
 .main_principal {
-  background-image: url("../../img/background.png");
+  background-image: url(../../img/background.png);
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -49,6 +49,10 @@ p {
   border-radius: 10px;
   margin: 10px;
 }
+.section_principal {
+  margin-top: 20px;
+  padding: 15px;
+}
 .section_principal_title {
   font-size: 2rem;
   font-weight: 700;
@@ -65,4 +69,41 @@ p {
 .mi_imagen {
   padding: 15px;
   margin: -60px 5px;
+}
+.section_secondary {
+  margin-top: 20px;
+}
+.section_secondary-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px;
+  margin: 45px;
+}
+.card {
+  border-color: $blanco;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
+  transform: translateY(-5%);
+}
+.wrapper_card {
+  margin: 45px;
+}
+.wrapper_img {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+  }
+}
+.wrapper_img-redes {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  img {
+    padding: 10px;
+  }
 }
