@@ -15,32 +15,38 @@
     <title>Iñaki Camino</title>
   </head>
   <body>
+    <div class="flecha_inicio">
+      <a href="#inicio"><img src="./img/flecha.svg" alt="flecha" /></a>
+    </div>
     <main class="main_principal">
-      <p class="main_principal_paragraph">Hola, soy</p>
+      <p class="main_principal_paragraph" id="inicio">Hola, soy</p>
       <h1 class="main_principal_paragraph_title">Iñaki Camino</h1>
       <h2 class="main_principal_paragraph_title-subtitle">
         Desarrollador Web Frontend
       </h2>
       <div class="main_principal-icons">
-        <a href="https://www.instagram.com/inacamino/"
+        <a target="_blank" href="https://www.instagram.com/inacamino/"
           ><img src="./img/ig.svg" alt="instagram"
         /></a>
         <a
+          target="_blank"
           href="https://api.whatsapp.com/send?phone=+5491122900325&text=Quiero%20mas%20informacion"
           ><img src="./img/Vector.svg" alt="whatsapp"
         /></a>
-        <a href="https://www.facebook.com/inaki.camino"
-          ><img src="./img/face.svg" alt="facebook"
+        <a target="_blank" href=""
+          ><img src="./img/linkedin.svg" alt="linkedin"
         /></a>
-        <img src="./img/linkedin.svg" alt="linkedin" />
+        <a target="_blank" href="https://github.com/inacamino"
+          ><img src="./img/github.svg" alt="github"
+        /></a>
       </div>
       <br />
-      <button class="btn">Contactame</button>
+      <a href="#contacto" class="btn">Contactame</a>
       <div class="mi_imagen">
         <img
           src="./img/mi-imagen.png"
           alt="iñaki camino"
-          height="420px"
+          height="390px"
           width="345px"
         />
       </div>
@@ -71,7 +77,16 @@
             <p class="card-text text-light">
               Mi primer proyecto utilizando HTML, CSS3, SASS, BOOTSTRAP.
             </p>
-            <a href="#" class="btn btn-light">Ver mas</a>
+            <a
+              href="https://inacamino.github.io/PF-Camino/"
+              class="btn btn-light"
+              >Website</a
+            >
+            <a
+              href="https://github.com/inacamino/PF-Camino/tree/master"
+              class="btn btn-light"
+              >Repositorio</a
+            >
           </div>
         </div>
       </div>
@@ -87,7 +102,8 @@
             <p class="card-text text-light">
               Mi primer proyecto utilizando HTML, CSS3, SASS, BOOTSTRAP.
             </p>
-            <a href="#" class="btn btn-light">Ver mas</a>
+            <a href="#" class="btn btn-light">Website</a>
+            <a href="#" class="btn btn-light">Repositorio</a>
           </div>
         </div>
       </div>
@@ -106,7 +122,7 @@
       </div>
     </section>
     <section>
-      <h4 class="section_secondary-title text-light">Contacto</h4>
+      <h4 class="section_secondary-title text-light" id="contacto">Contacto</h4>
       <form>
         <div class="mb-3 p-3">
           <label for="exampleInputEmail1" class="form-label text-light"
@@ -137,10 +153,20 @@
     <section>
       <h5 class="section_secondary-title text-light">Mis redes sociales</h5>
       <div class="wrapper_img-redes">
-        <img src="./img/ig.svg" alt="instagram" />
-        <img src="./img/github.svg" alt="github" />
-        <img src="./img/linkedin.svg" alt="linkedin" />
-        <img src="./img/Vector.svg" alt="whatsapp" />
+        <a target="_blank" href="https://www.instagram.com/inacamino/"
+          ><img src="./img/ig.svg" alt="instagram"
+        /></a>
+        <a target="_blank" href="https://github.com/inacamino"
+          ><img src="./img/github.svg" alt="github"
+        /></a>
+        <a target="_blank" href=""
+          ><img src="./img/linkedin.svg" alt="linkedin"
+        /></a>
+        <a
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=+5491122900325&text=Quiero%20mas%20informacion"
+          ><img src="./img/Vector.svg" alt="whatsapp"
+        /></a>
       </div>
     </section>
     <!-- JavaScript Bundle with Popper -->

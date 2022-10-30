@@ -8398,6 +8398,14 @@ h1, .h1, h2, .h2,
 p {
   color: #ffffff; }
 
+.flecha_inicio {
+  position: fixed;
+  bottom: 10px;
+  right: 20px; }
+  .flecha_inicio img {
+    width: 25px;
+    height: 25px; }
+
 .main_principal {
   background-image: url(../../img/background.png);
   width: 100vw;
@@ -8452,8 +8460,8 @@ p {
     line-height: 1.8; }
 
 .mi_imagen {
-  padding: 15px;
-  margin: -60px 5px; }
+  margin-top: -15px;
+  margin-left: 30px; }
 
 .section_secondary {
   margin-top: 20px; }
