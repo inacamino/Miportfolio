@@ -41,7 +41,9 @@
         /></a>
       </div>
       <br />
-      <a href="#contacto" class="btn">Contactame</a>
+      <div class="boton_contacto">
+        <a href="#contacto" class="btn">Contactame</a>
+      </div>
       <div class="mi_imagen">
         <img
           src="./img/mi-imagen.png"
@@ -65,50 +67,52 @@
     </section>
     <section class="section_secondary">
       <h3 class="section_secondary-title text-light">Mis trabajos</h3>
-      <div class="wrapper_card">
-        <div class="card bg-success" style="width: 18rem">
-          <img
-            src="./img/proyecto-1.png"
-            class="card-img-top"
-            alt="primer proyecto"
-          />
-          <div class="card-body">
-            <h5 class="card-title text-light">Indica Growshop</h5>
-            <p class="card-text text-light">
-              Mi primer proyecto utilizando HTML, CSS3, SASS, BOOTSTRAP.
-            </p>
-            <a
-              href="https://inacamino.github.io/PF-Camino/"
-              class="btn btn-light"
-              >Website</a
-            >
-            <a
-              href="https://github.com/inacamino/PF-Camino/tree/master"
-              class="btn btn-light"
-              >Repositorio</a
-            >
+      <div class="secondary_wrapper">
+        <div class="wrapper_card">
+          <div class="card bg-success" style="width: 18rem">
+            <img
+              src="./img/proyecto-1.png"
+              class="card-img-top"
+              alt="primer proyecto"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-light">Indica Growshop</h5>
+              <p class="card-text text-light">
+                Mi primer proyecto utilizando HTML, CSS3, SASS, BOOTSTRAP.
+              </p>
+              <a
+                href="https://inacamino.github.io/PF-Camino/"
+                class="btn btn-light"
+                >Website</a
+              >
+              <a
+                href="https://github.com/inacamino/PF-Camino/tree/master"
+                class="btn btn-light"
+                >Repositorio</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-      <div class="wrapper_card">
-        <div class="card bg-success" style="width: 18rem">
-          <img
-            src="./img/proyecto-1.png"
-            class="card-img-top"
-            alt="primer proyecto"
-          />
-          <div class="card-body">
-            <h5 class="card-title text-light">Indica Growshop</h5>
-            <p class="card-text text-light">
-              Mi primer proyecto utilizando HTML, CSS3, SASS, BOOTSTRAP.
-            </p>
-            <a href="#" class="btn btn-light">Website</a>
-            <a href="#" class="btn btn-light">Repositorio</a>
+        <div class="wrapper_card">
+          <div class="card bg-success" style="width: 18rem">
+            <img
+              src="./img/proyecto-1.png"
+              class="card-img-top"
+              alt="primer proyecto"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-light">Indica Growshop</h5>
+              <p class="card-text text-light">
+                Mi primer proyecto utilizando HTML, CSS3, SASS, BOOTSTRAP.
+              </p>
+              <a href="#" class="btn btn-light">Website</a>
+              <a href="#" class="btn btn-light">Repositorio</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section>
+    <section class="section_tecnologias">
       <h3 class="section_secondary-title text-light">
         Tecnologias y habilidades
       </h3>
@@ -121,36 +125,35 @@
         <img src="./img/figma.svg" alt="figma" />
       </div>
     </section>
-    <section>
+    <section class="section_contact">
       <h4 class="section_secondary-title text-light" id="contacto">Contacto</h4>
-      <form>
-        <div class="mb-3 p-3">
-          <label for="exampleInputEmail1" class="form-label text-light"
-            >Email</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            placeholder="Email"
-          />
-          <div id="emailHelp" class="form-text">Gracias!</div>
+      <div class="container p-3 form_container">
+        <form class="row mt-3 m-lg-5 form_container_all">
+        <div class="row mb-3">
+            <label for="exampleInputName1" class=" col-12 col-form-label text-light">Nombre y Apellido</label>
+            <div class="col-12 col-lg-12">
+              <input type="text" class="form-control" placeholder="Nombre y Apellido" id="exampleInputName1">
+            </div>
         </div>
-        <div class="mb-3 p-3">
-          <label for="exampleInputmensaje1" class="form-label text-light"
-            >Deja tu mensaje</label
-          >
-          <textarea
-            class="form-control"
-            id="exampleInputmensaje1"
-            placeholder="Deja tu mensaje"
-          ></textarea>
+        <div class="row">
+            <label for="exampleInputEmail1" class="col-form-label col-12 text-light">Correo Electronico</label>
+          <div class="col-12 col-lg-12">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo Electronico" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text mb-3">Gracias!</div>
+          </div>
         </div>
-        <button type="submit" class="btn btn-light">Enviar</button>
-      </form>
+          <div class="row">
+            <label for="exampleInputComentario1" class="col-form-label col-12 text-light">Deja tu Comentario</label>
+          <div class="col-12 mb-3 col-lg-12">
+            <textarea id="exampleInputComentario1" class="form-control" placeholder="Deja tu comentario"></textarea>
+          </div>
+          </div>
+          <div class="col-12 col-lg-12 col-md-12">
+            <button type="submit" class="btn btn-light">Enviar</button>
+          </div>
+        </form>
     </section>
-    <section>
+    <section class="section_redes">
       <h5 class="section_secondary-title text-light">Mis redes sociales</h5>
       <div class="wrapper_img-redes">
         <a target="_blank" href="https://www.instagram.com/inacamino/"
