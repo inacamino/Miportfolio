@@ -1,16 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  background-color: #051a16;
-}
-h1,
-h2,
-p {
-  color: $blanco;
-}
 .flecha_inicio {
   position: fixed;
   bottom: 10px;
@@ -200,7 +187,9 @@ p {
     }
   }
   .main_principal {
-    background-image: url(../../img/backgrounddesktop.png);
+    background-image: url();
+    max-width: 100%;
+    background-size: cover;
     &_paragraph {
       font-size: 3rem;
       font-weight: 400;
@@ -253,6 +242,7 @@ p {
       }
     }
   }
+
   .section_tecnologias {
     margin-top: 100px;
   }

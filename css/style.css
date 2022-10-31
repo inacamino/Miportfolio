@@ -8386,18 +8386,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-body {
-  background-color: #051a16; }
-
-h1, .h1, h2, .h2,
-p {
-  color: #ffffff; }
-
 .flecha_inicio {
   position: fixed;
   bottom: 10px;
@@ -8554,7 +8542,9 @@ p {
       width: 50px;
       height: 50px; }
   .main_principal {
-    background-image: url(../../img/backgrounddesktop.png); }
+    background-image: url();
+    max-width: 100%;
+    background-size: cover; }
     .main_principal_paragraph {
       font-size: 3rem;
       font-weight: 400;
@@ -8614,3 +8604,15 @@ p {
   .form_container_all {
     display: flex;
     justify-content: center; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #051a16; }
+
+h1, .h1, h2, .h2,
+p {
+  color: #ffffff; }
